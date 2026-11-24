@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0d0b">
+  <title>Member Login | FITZONE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+  <header class="site-header"><nav class="site-nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html"><span class="brand-mark">F<span>.</span></span><span>FITZONE</span></a>
+    <a class="login-home-link" href="index.html">← Back to website</a>
+  </nav></header>
+  <main class="login-main">
+    <section class="login-card">
+      <p class="eyebrow"><span class="eyebrow-line"></span> MEMBER SPACE</p>
+      <h1>WELCOME<br><span>BACK.</span></h1>
+      <p class="login-intro">Sign-in screen concept for the FITZONE college project.</p>
+      <form class="login-form" id="login-form">
+        <label for="login-email">Email address</label>
+        <input id="login-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+        <label for="login-password">Password</label>
+        <div class="password-wrap"><input id="login-password" name="password" type="password" placeholder="Enter a demo password" autocomplete="current-password" required><button type="button" class="show-password" id="toggle-password" aria-label="Show password" aria-pressed="false">Show</button></div>
+        <button class="btn btn-primary login-submit" type="submit">Continue <span>↗</span></button>
+        <p class="form-note" id="login-status" role="status" aria-live="polite">Demo only. Do not enter a real password. Authentication is not connected.</p>
+      </form>
+      <div class="login-bottom"><span>FITZONE / MEMBER EXPERIENCE</span><a href="index.html">Explore FITZONE ↗</a></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
